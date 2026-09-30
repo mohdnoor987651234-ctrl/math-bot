@@ -1,4 +1,1 @@
 pyTelegramBotAPI
-sympy
-requests
-Flask

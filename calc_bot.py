@@ -3,9 +3,7 @@ import re
 from telebot import TeleBot
 
 # Render ke Environment Variable se Token lega (Safe Method)
-BOT_TOKEN = os.getenv("8847681782:AAEv7mZxdaTeZhJ0R-wbPthBeXURB3X7JIs")
-
-bot = TeleBot(BOT_TOKEN)
+BOT_TOKEN = "8847681782:AAEv7mZxdaTeZhJ0R-wbPthBeXURB3X7JIs"
 
 # /start Command
 @bot.message_handler(commands=['start'])
